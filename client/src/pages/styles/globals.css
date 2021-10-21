@@ -1,0 +1,109 @@
+html,
+body {
+  background: #cacaca;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+#containernavs > nav > a {
+  word-break: break-all;
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+#containernavs > nav > a:hover {
+  word-break: break-all;
+  display: flex;
+  color: inherit;
+  background-color: #bfbebe;
+  text-decoration: none;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  width: 100%;
+  white-space: normal;
+  overflow: auto;
+  text-overflow: ellipsis;
+  height: 68%;
+  margin: 0;
+}
+
+nav > div > h1, h2, h3, h4, h5, h6 {
+  white-space: pre-line;
+  overflow: auto;
+  text-overflow: ellipsis;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+p::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+p::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.103);        /* color of the tracking area */
+  border-radius: 20%;
+}
+
+p::-webkit-scrollbar-thumb {
+  background-color: rgba(63, 63, 63, 0.212);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgba(0, 0, 0, 0.021);  /* creates padding around scroll thumb */
+}
+
+div#containernavs {
+  background-color: #a0a0a0;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+ 
+
+#containernavs > nav {
+  border-top-color: initial;
+    border-top-style: double;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: double;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: double;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: double;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+a {
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}

@@ -1,0 +1,133 @@
+.app_header {
+  align-items: center;
+  background: #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+
+.header_logo {
+  background: #999;
+  height: 25px;
+  width: 100px;
+}
+
+.conteudo {
+  word-wrap: break-word;
+  width: 100%;
+  height: 100%;
+  background: #ffffff96;
+  border-color: #000000;
+  border-style: double;
+}
+
+.links {
+  color: #1d00ff;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+
+.links:hover {
+  overflow-wrap: anywhere;
+  color: #07003d;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;
+  text-decoration-style: solid;
+  text-decoration-color: #00526b;
+}
+
+.insert {
+  border-radius: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  width: 50%;
+  height: 2.5em;
+  background: #00000000;
+  border-color: #000000;
+  border-style: double;
+  color: black;
+  text-align: center;
+}
+
+.insert:focus{
+  outline: 0;
+}
+
+.botao {
+  font-weight: bolder;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black;
+  border-radius: 7px;
+  background: #deeaea;
+  border-top-color: #b1b1b1;
+  border-bottom-color: #b1b1b1;
+  border-left-color: #b1b1b1;
+  border-right-color: #b1b1b1;
+
+  border-top-style: groove;
+  border-top-width: revert;
+
+  border-right-style: groove;
+  border-right-width: unset;
+
+  border-bottom-style: groove;
+  border-bottom-width: unset;
+
+  border-left-style: groove;
+  border-left-width: revert;
+
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  font-size: 105%;
+}
+
+.botao:hover {
+  font-weight: bolder;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black;
+  border-radius: 7px;
+  background: #deeaea;
+  border-top-color: #a09d9d;
+  border-bottom-color: #a09d9d;
+  border-left-color: #a09d9d;
+  border-right-color: #a09d9d;
+
+  border-top-style: groove;
+  border-top-width: revert;
+
+  border-right-style: groove;
+  border-right-width: thin;
+
+  border-bottom-style: groove;
+  border-bottom-width: thin;
+
+  border-left-style: groove;
+  border-left-width: revert;
+
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  font-size: 105%;
+}
+
+.hr4 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, rgb(97, 97, 97), transparent);  
+}
+
+.div {
+  margin-top: 10%;
+  align-items: center;
+  text-align: center;
+}
