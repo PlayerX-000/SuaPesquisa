@@ -1,4 +1,4 @@
-## Sua Busca
+## Sua Busca - prt 1
   
   
   #### seção pesquisa
@@ -17,6 +17,8 @@ caso haja uma explicação sobre o significado da frase ou palavra pesquisada se
  </p>
  </div>
   </section>
+
+## Sua Busca - prt 2
 
 #### seção noticias
  <section align="center" >
